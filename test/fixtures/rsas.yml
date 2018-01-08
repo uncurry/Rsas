@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  'n': MyText
+  e: MyText
+  d: MyText
+  messages: MyText
+  encrypt_messages: MyText
+  decrypt_messages: MyText
+
+two:
+  'n': MyText
+  e: MyText
+  d: MyText
+  messages: MyText
+  encrypt_messages: MyText
+  decrypt_messages: MyText

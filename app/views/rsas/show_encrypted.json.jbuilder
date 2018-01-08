@@ -1,0 +1,1 @@
+json.partial! "rsas/rsa1", rsa1: @rsa

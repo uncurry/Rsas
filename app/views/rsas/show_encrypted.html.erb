@@ -1,0 +1,13 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>ID:</strong>
+  <%= @encrypted.id.to_s %>
+</p>
+
+<p>
+  <strong>Encrypted message:</strong>
+  <%= @enc.to_s %>
+</p>
+
+<%= link_to 'Back', rsas_path %>

@@ -1,0 +1,8 @@
+<%= form_with(model: rsa, local: true) do |form|%>
+
+  <div class="field">
+    <%= form.label :decrypt_messages %>
+    <%= form.text_area :decrypt_messages, value: @decrypt_messages.to_s, id: :rsa_decrypt_messages %>
+  </div>
+ 
+<% end %>

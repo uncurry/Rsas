@@ -1,0 +1,16 @@
+<%= form_with(model: rsa, local: true) do |form|%>
+ <div class="field">
+    <%= form.label :message %>
+    <%= form.text_area :messages, value: @messages.to_s , id: :rsa_messages %>
+  </div>
+
+  <div class="field">
+    <%= form.label :encrypt_messages %>
+    <%= form.text_area :encrypt_messages, value: @encrypt_messages.to_s, id: :rsa_encrypt_messages %>
+  </div>
+  
+  <div class="actions">
+    <%= form.submit 'Save encrypted message'%>
+  </div>
+  
+<% end %>
